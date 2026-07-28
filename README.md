@@ -1,5 +1,5 @@
 # Orbital-Mechanics: Comparative N-Body Dynamics and Symplectic Geometry
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21651944.svg)](https://doi.org/10.5281/zenodo.21651944)
 This Python-based orbital simulator models a two-body Newtonian gravitational system to analyze how different numerical integration schemes conserve physical and geometric properties over long timescales. The repository compares four integrators: Explicit Euler, Semi-implicit Euler, Leapfrog (Velocity Verlet), and Runge-Kutta 4 (RK4).
 
 While traditional computational physics prioritizes a solver's formal order of accuracy, this project proves that **symplecticity**—the preservation of phase-space volume—is the critical factor for long-term orbital stability. By tracking an Earth-Sun system over 100 orbits, the simulation reveals that:
